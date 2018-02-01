@@ -1,0 +1,16 @@
+pre {
+  background: black;
+  color: white;
+  padding: 1em;
+  overflow: auto;
+}
+
+code {
+  font-family: monaco, Consolas, "Lucida Console", monospace;
+  font-size: 0.85em;
+}
+
+.container {
+  border: 1em solid red;
+  padding: 10px;
+}

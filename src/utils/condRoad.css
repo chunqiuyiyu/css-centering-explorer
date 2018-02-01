@@ -1,0 +1,159 @@
+.hbo-child {
+  margin: 0 auto;
+  width: 200px;
+  text-align: center;
+  background: #ff9800;
+  padding: 5px;
+}
+
+.hbmi-child {
+  display: inline-block;
+  margin: 0 10px;
+  width: 150px;
+}
+
+.hbmv-parent div {
+  background: #ff9800;
+  margin: 5px auto;
+  padding: 5px;
+}
+
+.hbmv-parent div:nth-child(1) {
+  width: 100px;
+}
+
+.hbmv-parent div:nth-child(2) {
+  width: 200px;
+}
+
+.hbmv-parent div:nth-child(3) {
+  width: 150px;
+}
+
+.viap-child {
+  padding: 30px 10px;
+  background: #ff9800;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.vial-child {
+  height: 50px;
+  line-height: 50px;
+  background: #ff9800;
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.vimv-child {
+  background: #ff9800;
+  width: 400px;
+  display: table-cell;
+  height: 100px;
+  vertical-align: middle;
+  padding: 0 10px;
+}
+
+.vimf-child {
+  display: flex;
+  height: 100px;
+  width: 400px;
+  justify-content: center;
+  flex-direction: column;
+  background: #ff9800;
+  padding: 0 10px;
+}
+
+.vimc-parent {
+  height: 100px;
+  background: #ff9800;
+}
+
+.vimc-parent::before {
+  content: "";
+  height: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.vimc-child {
+  vertical-align: middle;
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.relative-parent {
+  position: relative;
+  height: 100px;
+}
+
+.vbk-child {
+  height: 60px;
+  background: #ff9800;
+  position: absolute;
+  top: 50%;
+  margin-top: -30px;
+  padding: 0 10px;
+}
+
+.vbut-child {
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #ff9800;
+  padding: 10px;
+}
+
+.vbuf-parent {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.flex-child {
+  background: #ff9800;
+  padding: 0 10px;
+}
+
+.bof-child {
+  width: 400px;
+  height: 60px;
+  background: #ff9800;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 10px;
+
+  margin-top: -40px;
+  margin-left: -210px;
+}
+
+.bou-child {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: #ff9800;
+  padding: 10px;
+}
+
+.bmf-parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+
+.bmg-parent {
+  display: grid;
+  height: 100px;
+}
+
+.bmg-child {
+  background: #ff9800;
+  padding: 0 10px;
+  margin: auto;
+}

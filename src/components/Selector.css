@@ -1,0 +1,8 @@
+select {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-size: 100%;
+}
+
+.selector-container {
+  margin: 10px 0;
+}

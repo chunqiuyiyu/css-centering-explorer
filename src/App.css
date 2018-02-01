@@ -1,0 +1,22 @@
+.App a {
+  color: hotpink;
+}
+
+.App header h1 {
+  margin: 1em 0 0;
+}
+
+.App-intro {
+  margin-top: 0;
+  font-size: 1.2em;
+  color: hotpink;
+  font-style: italic;
+}
+
+.App main {
+  margin-top: 1em;
+}
+
+.App footer p {
+  font-size: 0.8em;
+}

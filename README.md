@@ -4,7 +4,7 @@ How to center (horizontally, vertically, or both) elements in CSS is fairly comp
 Hope you enjoy it!
 
 ## Preview
-[CSS Centering Explorer](http://www.chunqiuyiyu/css-centering-explorer/)
+[CSS Centering Explorer](http://www.chunqiuyiyu.com/css-centering-explorer/)
 
 ## Usage
 ```shell
