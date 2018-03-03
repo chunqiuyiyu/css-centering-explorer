@@ -66,7 +66,7 @@ const condRoad = {
     )
   },
   v_i_m_v: {
-    code: '.container {\n  display: tabel-cell;\n  vertical-align: middle;\n}',
+    code: '.container {\n  display: table-cell;\n  vertical-align: middle;\n}',
     note: 'The element the contents is in can be a table cell, either literally or made to behave like one with CSS.',
     jsx: (
       <span className={'vimv-child'}>{`I'm vertically centered multiple lines of text in a CSS-created table layout.`}</span>
