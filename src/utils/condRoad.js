@@ -25,8 +25,8 @@ const condRoad = {
     )
   },
   h_b_m_i: {
-    code: '.child {\n  display: inline-block;\n}',
-    note: 'Make child elements a different display type',
+    code: '.parent {\n  text-align: center;\n}\n\n.child {\n  display: inline-block;\n}',
+    note: 'Make child elements a different display type.',
     jsx: (
       <div style={{ textAlign: 'center' }}>
         <div className={'hbmi-child'}>{`I'm an element that is block-like.`}</div>
