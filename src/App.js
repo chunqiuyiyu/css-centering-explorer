@@ -98,7 +98,7 @@ class App extends Component {
         </main>
         <footer>
           <p>
-            &copy; {`${new Date().getFullYear()}`} <a href='http://www.chunqiuyiyu.com'>{'chunqiuyiyu'}</a>
+            &copy; {`${new Date().getFullYear()}`} <a href='https://www.chunqiuyiyu.com'>{'chunqiuyiyu'}</a>
               {' Inspired by '}
               <a href='https://css-tricks.com/centering-css-complete-guide/'>{'CSS-Tricks'}</a>
               {' and '}
